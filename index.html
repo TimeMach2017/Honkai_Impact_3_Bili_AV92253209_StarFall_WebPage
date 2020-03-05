@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>「Starfall」——《崩坏3》印象曲（演唱者：袁娅维）</title>
+    <link rel="stylesheet" type="text/css" href="./index.css"/>
+    <link rel="icon" type="image/x-icon" href="./source/browserIcon.png"/>
+</head>
+<body>
+    <div class="bg">
+
+        <div class="bgImg"></div>
+        <div class="gradual"></div>
+        <div class="panel"></div>
+    </div>
+        <div>
+            <div class="g-musicCover"></div>
+            <div class="g-musicName">「Starfall」</div>
+            <img class="g-playIcon" src="./source/play.png"/>
+            <div class="g-singer web-font">TIA袁娅维</div>
+            <div class="g-progressBar">
+                <!--  -5~70 -->
+                <div class="gpb-pointer"></div>
+            </div>
+
+            <!--歌词-->
+            <div class="g-lyrics">
+                <div class="gl-en">Music By HOYO-MIX</div>
+                <div class="gl-cn web-font"></div>
+            </div>
+
+            <div class="g-musicControls">
+                <div class="gmc-playOrStopButton">
+                    <audio class="gmc-music" crossOrigin="anonymous" >
+                        <!--本地测试用音频
+                        http://m8.music.126.net/21180815163607/04976f67866d4b4d11575ab418904467/ymusic/515a/5508/520b/f0cf47930abbbb0562c9ea61707c4c0b.mp3?infoId=92001
+                        -->
+                        <source src="./source/Starfall-袁娅维-《崩坏3》印象曲.mp3">
+                    </audio>
+                </div>
+                <canvas class="gmc-musicEffect" width="100px" height="40px"></canvas>
+            </div>
+
+
+            <div class="g-companyIcon"></div>
+        </div>
+    <script type="text/javascript" src="./lib/jquery-3.3.1.min.js"></script> 
+    <script type="text/javascript" src="./lib/jquery.color.js"></script> 
+    <script type="text/javascript" src="./indexJ.js"></script> 
+    <script type="text/javascript" src="./index.js"></script> 
+
+</body>
+</html>
